@@ -26,5 +26,5 @@ var divSelector = () => $('div.pics');
 function should use a first-child selector to return the first list item in the
 `ul` with the ID `pic-list`.*/
 
-var firstListItem = () => $('#pic-list:first-child');
+var firstListItem = () => $('#pic-list');
 
